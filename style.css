@@ -1,0 +1,63 @@
+body{
+	font-family: monospace;
+	font-size: 1.5em;
+}
+
+.container{
+	text-align: center;
+	background-color: skyblue;
+	margin: 75px auto;
+	padding: 20px 0 50px 0;
+	height: auto;
+	max-width: 620px;
+	border-radius: 10px;
+	box-shadow: 0 3px 10px black;
+}
+
+button {
+	padding: 5px 10px;
+	font-size: 1.2rem;
+	border-radius: 5px;
+	border-color: transparent;
+	color: white;
+	cursor: pointer;
+}
+
+button:hover {
+	transform: scale(1.1);
+}
+
+button:active {
+	transform: scale(.98);
+}
+
+button.btn-inc {
+	background-color: #2e6dd1;
+}
+
+button.btn-save {
+	background-color: #30db30;
+}
+
+button.btn-undo {
+	background-color: #f54076;
+}
+
+button.btn-total{
+	background-color: #40403d;
+}
+
+#total {
+	font-size: 2rem;
+	padding: 0 15px;
+	background-color: white;
+	border-radius: 5px;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.total {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

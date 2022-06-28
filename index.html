@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<div class="container">
+		<h1>counter app</h1>
+		<h1 id="count-el">0</h1>
+		<button onclick="increment()" class="btn-inc">increment</button>
+		<button onclick="save()" class="btn-save">save</button>
+		<button onclick="undo()" class="btn-undo">undo</button>
+		<h2>current count: <span id="current-count"></span></h2>
+		<div class="total">
+			<button onclick="total()" class="btn-total">total</button><span id="total"></span>
+		</div>		
+	</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
