@@ -47,6 +47,11 @@ button.btn-total{
 	background-color: #40403d;
 }
 
+button.btn-reset{
+	background-color: #fff;
+	color: rgba(0, 0, 0, 0.8);
+}
+
 #total {
 	font-size: 2rem;
 	padding: 0 15px;
